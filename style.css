@@ -6,10 +6,11 @@
 body {
     display: flex;
     flex-direction: column;
+    align-content: stretch;
 }
 
 section {
-    height: 100px;
+    height: 50px;
 }
 
 
@@ -36,6 +37,23 @@ section {
 }
 
 
-@media (min-width: 601px) {}
+@media (min-width: 601px) {
+
+    body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+    .one, .two, .six, .seven {
+       flex-basis: 50%;
+       height: 33%;
+    } 
+    .three, .four, .five {
+        flex-basis: calc(100%/3);
+        height: 33%;
+    }
+    
+}
 
 @media (min-width: 801px) {}
