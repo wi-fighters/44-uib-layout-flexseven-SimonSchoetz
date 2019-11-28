@@ -44,7 +44,25 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     height: 100vh;
+    }
+    .one, .two, .six, .seven {
+       flex-basis: 100%;
+       height: auto;
+    } 
+    .three, .four, .five {
+        flex-basis: calc(100%/3);
+        height: auto;
+    }
+    
 }
+
+/* @media (min-width: 801px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
     .one, .two, .six, .seven {
        flex-basis: 50%;
        height: 33%;
@@ -53,7 +71,4 @@ section {
         flex-basis: calc(100%/3);
         height: 33%;
     }
-    
-}
-
-@media (min-width: 801px) {}
+} */
