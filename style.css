@@ -36,7 +36,7 @@ section {
     background-color: rgb(250, 0, 250);
 }
 
-
+/*Tablet*/
 @media (min-width: 601px) {
 
     body {
@@ -55,8 +55,8 @@ section {
     }
     
 }
-
-/* @media (min-width: 801px) {
+/*Desktop*/
+@media (min-width: 801px) {
     body {
         display: flex;
         flex-direction: row;
@@ -65,10 +65,10 @@ section {
     }
     .one, .two, .six, .seven {
        flex-basis: 50%;
-       height: 33%;
+       height: auto;
     } 
     .three, .four, .five {
         flex-basis: calc(100%/3);
-        height: 33%;
+        height: auto;
     }
-} */
+}
