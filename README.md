@@ -29,5 +29,6 @@ Images for reference:
 -   Use **Git properly**
 -   Feel free to document your code with comments.
 
-
+---------
+In case you lose the link: https://github.com/wi-fighters/44-uib-layout-flexseven-SimonSchoetz
 
